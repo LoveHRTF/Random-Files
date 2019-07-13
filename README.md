@@ -15,7 +15,7 @@ $python run.py --path=PATH
 $python run.py --path=PATH --iters=5
 ```
 
-* Show five random images with interval of 2 seconds
+* Show five random images with interval of 0.1 seconds
 
 ```
 $python run.py --path=PATH --iters=5 --interval=0.1

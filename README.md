@@ -27,6 +27,9 @@ $python run.py --path=PATH --iters=5 --interval=0.1
 $python run.py --path=PATH --iters=5 --interval=0.1 --tpye=PNG
 ```
 
-* Show videos
-TODO
+## TODO
+* Add play video feature
+* Add open text file feature
+* Add randomly delete specific type of file feature
+
 

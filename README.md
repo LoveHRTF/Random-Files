@@ -27,9 +27,23 @@ $python run.py --path=PATH --iters=5 --interval=0.1
 $python run.py --path=PATH --iters=5 --interval=0.1 --tpye=PNG
 ```
 
+* Open by using system default application for images
+```
+$python run.py --path=PATH --type=IMG --sysImgApp=1
+```
+
+* Open random video file
+```
+$python run.py --path=PATH --type=Video
+```
+
+* Open any random file
+```
+$python run.py --path=PATH --type=Any --sysImgApp=1
+```
+
+
 ## TODO
-* Add play video feature
-* Add open text file feature
 * Add randomly delete specific type of file feature
 
 

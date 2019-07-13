@@ -48,37 +48,6 @@ def getImage(files):
     return items
 
 # All Videos
-def getMP4(files):
-    items = []
-    for item in files:
-        if re.findall(r".mp4\b", item):
-            items.append(item)
-    return items
-
-def getAVI(files):
-    items = []
-    for item in files:
-        if re.findall(r".avi\b", item):
-            items.append(item)
-    return items
-
-
-def getMOV(files):
-    items = []
-    for item in files:
-        if re.findall(r".mov\b", item):
-            items.append(item)
-    return items
-
-
-def getMPEG(files):
-    items = []
-    for item in files:
-        if re.findall(r".mpeg\b", item):
-            items.append(item)
-    return items
-
-
 def getVideo(files):
     items = []
     for item in files:
@@ -89,6 +58,32 @@ def getVideo(files):
             items.append(item)
     return items
 
+# def getMP4(files):
+#     items = []
+#     for item in files:
+#         if re.findall(r".mp4\b", item):
+#             items.append(item)
+#     return items
 
-# Get a random file from list:
-# def getRandom(files):
+# def getAVI(files):
+#     items = []
+#     for item in files:
+#         if re.findall(r".avi\b", item):
+#             items.append(item)
+#     return items
+
+
+# def getMOV(files):
+#     items = []
+#     for item in files:
+#         if re.findall(r".mov\b", item):
+#             items.append(item)
+#     return items
+
+
+# def getMPEG(files):
+#     items = []
+#     for item in files:
+#         if re.findall(r".mpeg\b", item):
+#             items.append(item)
+#     return items

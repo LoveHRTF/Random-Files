@@ -39,7 +39,7 @@ $python run.py --path=PATH --type=Video
 
 * Open any random file
 ```
-$python run.py --path=PATH --type=Any --sysImgApp=1
+$python run.py --path=PATH --type=Any
 ```
 
 

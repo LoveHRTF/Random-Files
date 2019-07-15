@@ -21,7 +21,7 @@ def main():
     parser.add_argument('--interval',   default=0,      type=float, help='Show time for each file')
     parser.add_argument('--path',       default='',     type=str,   help='Path for searching files')
     parser.add_argument('--type',       default='IMG',  type=str,   help='Type of file for search, currently spports IMG, JPG/JPEG, PNG')
-    parser.add_argument('--sysImgApp',  default=True,   type=int,  help='Selection for use system application to open image or matplotlib')
+    parser.add_argument('--sysImgApp',  default=0,   type=int,  help='Selection for use system application to open image or matplotlib')
     args = parser.parse_args()
 
     if args.path:
